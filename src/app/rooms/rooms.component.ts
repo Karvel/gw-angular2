@@ -12,6 +12,9 @@ export class RoomsComponent implements OnInit {
   constructor(private activatedRoute: ActivatedRoute) { }
 
   ngOnInit() {
+    this.idParam = this.activatedRoute.params.subscribe(params => {
+      this.id = +params['id'];
+    });
   }
 
 }
