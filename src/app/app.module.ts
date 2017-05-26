@@ -5,6 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule, routedComponents as mainAppRoutedComponents } from './app-routing.module';
 
+import { RoomsModule } from './rooms/rooms.module';
+
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './navigation/navigation.component';
 
@@ -12,6 +14,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 	imports: [
 		BrowserModule,
 		FormsModule,
+		RoomsModule,
 		AppRoutingModule,
 	],
 	declarations: [
