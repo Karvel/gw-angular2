@@ -12,14 +12,14 @@ import { NavigationComponent } from './navigation/navigation.component';
 	imports: [
 		BrowserModule,
 		FormsModule,
-		AppRoutingModule
+		AppRoutingModule,
 	],
 	declarations: [
 		AppComponent,
 		NavigationComponent,
 		mainAppRoutedComponents,
 	],
-	providers: [],
-	bootstrap: [ AppComponent ]
+	providers : [],
+	bootstrap : [ AppComponent ],
 })
 export class AppModule { }
